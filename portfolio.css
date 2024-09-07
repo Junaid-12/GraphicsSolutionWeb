@@ -1,0 +1,495 @@
+body{
+  background-color:#1b1a1a;
+   scroll-behavior: smooth;
+}
+
+*{
+ padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* nav baar start */
+
+nav{
+    width: 100%;
+    background-color:#171616;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+ nav .Left_nav a{
+  font-size: 25px;
+  font-family: monospace;
+  color: white;
+ }
+nav  .Right_nav ul{
+    display: flex;
+}
+nav  .Right_nav ul li {
+  list-style: none;
+  margin: 27px 16px;
+}
+nav  .Right_nav ul li a{
+  font-size: 19px;
+  color: white;
+  font-family: Mulish, sans-serif ;
+  font-weight:500;
+  text-decoration: none;
+}
+nav  .Right_nav ul li a:hover{
+   color: #d6966d;
+}
+/* Nav bar End */
+
+/*  first Main landing page Section area  start*/
+ .firstSection{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 200px 7px;
+  align-items: center;
+  padding-left: 106px;
+
+  
+  
+}
+
+
+.LeftSection{
+
+  width: 30%;
+} 
+.LeftSection .subtitle{
+  color: #d6966d;
+  font-size: 25px;
+  padding: 10px 0px;
+  
+}
+.LeftSection .title{
+  color: white;
+  font-size: 2rem;
+
+}
+.LeftSection .Description {
+   color: white;
+   padding: 20px 0px;
+   font-size: 1.6rem;
+   word-spacing: 2px;
+   letter-spacing: 1px;  
+   font-family: Mulish, sans-serif ;
+   
+}
+.firstSection .sectionbtns{
+  padding-top: 25px;
+  
+}
+.firstSection .sectionbtns  a{
+     /* width: 50px;
+     height: 50px; */
+    padding: 10px 13px;
+    color: black;
+    border: 3px slod white;
+    border-radius: 7px;
+     font-size: 20px;
+     background-color: white;
+     text-decoration: none;
+     
+    
+}
+.firstSection .sectionbtns .primary:hover{
+  color:  #1f4d84;
+
+}
+.firstSection .sectionbtns .Seoundry{
+  
+
+padding: 10px 13px;
+border: 2px white;
+border-radius: 7px;
+margin-left: 15px;
+font-size: 18px;
+
+
+}
+
+/*  Icons Use  */
+.firstSection .icons {
+    font-size: 22px;
+}
+.firstSection .sectionbtns .Seoundry:hover{
+  color:  #1f4d84;
+}
+.RightSection{
+  
+   width: 40%;
+
+}
+.RightSection img{
+  width: 320px;
+  height: 320px;
+  border-radius: 144px;
+   border: 2px solid lightgoldenrodyellow;
+    padding: 2px;   
+    animation: jaundiimg 6s ease-in-out  infinite;
+    /* animation: morph 8s ease-in-out infinite; */
+}
+
+@keyframes jaundiimg {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+   }
+   50%{
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+   }
+   100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+   }
+}
+/* landing page End */
+
+/* Scroling */
+.scroling{
+  display: flex;
+  justify-content: space-evenly;
+  
+  
+}
+.scroling p{
+  color: white;
+  font-size: 1.5rem;
+  
+  font-family: Poppins, sans-serif;
+
+  text-transform: uppercase;
+    font-weight: 700;
+  
+}
+
+
+/* Secound section for About me start */
+.SecoundSection{
+  background-color: white;
+  margin: 100px 0px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 68px 0px;
+  margin: 110px 150px;
+  box-shadow: 10px 10px 10px  darkgrey;
+  border-radius: 10px;
+}
+  
+.LeftSecoundSection img{
+  width: 350px;
+  height: 321px;
+  margin-right: 26px;
+  border-radius: 1.9rem;
+  transition: transform .2s;
+}
+.LeftSecoundSection img:hover{
+  transform: scale(1.05);
+}
+.RightSecoundSection{
+
+  width: 39%;
+}
+.RightSecoundSection .About-title{
+  display: flex;
+  padding-top: 1.5rem;
+  align-items: center;
+
+}
+.RightSecoundSection .About-title p {
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+
+  text-transform: uppercase;
+    font-weight: 700;
+  color: #1f4d84;;
+  
+}
+.RightSecoundSection .About-title img{
+  width: 2.5rem;    
+  height: 2.5 rem;
+  margin-left:10px ;
+  
+}
+
+.RightSecoundSection h1{
+  font-size: 1.5rem;
+  padding-top: 1rem ;
+  font-family: Poppins, sans-serif;
+
+}
+.RightSecoundSection .SecoundSection_Decs{
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-family: Mulish, sans-serif;
+  font-weight: 500;
+ color: #767676;
+  
+}
+/* Secound Section End */
+
+/* Thid section Start My Skills */
+
+.thirdSsection{
+
+   display: flex;
+   justify-content: space-around;
+   background-color: #0b0b0b;
+   padding: 20px 0px;
+}
+.thirdSsection .thirdSsectionleft{
+  width: 40%;
+  padding: 34px 15px;
+
+}
+.thirdSsection .thirdSsectionleft p{
+  font-size: 1rem;
+ 
+  color: gray;
+}
+.thirdSsection .thirdSsectionleft h1{
+  font-size: 2rem;
+  padding: 6px 0px;
+  color: #d6966d;
+}
+.thirdSsection .thirdSsectionleft .thirdSsection_des{
+   font-size: 1.5rem;
+   
+   font-size: 1.2rem;
+    font-family: Mulish, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.thirdSsection .thirdSsectionRight{
+  width: 20%;
+  
+}
+.thirdSsection .thirdSsectionRight ul{
+ margin-top: 60px;
+}
+.thirdSsection .thirdSsectionRight li{
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+  color: wheat;
+  padding-top: 10px;
+}
+.fourthSection{
+  margin: 100px 0px;
+ /* background-color: azure; */
+
+}
+.fourthSection h2{
+
+  padding-left: 10rem;
+
+  font-size: 2rem;
+  color: gray;
+}
+.fourthSection h2 .my{
+  color: #d6966d;
+}
+.fourthSection .Skills_contant ul{
+  padding-left: 10rem;
+  padding-right: 5rem;
+  padding-top: 2rem;
+
+  
+}
+.fourthSection .Skills_contant li {
+  list-style: none;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: white;
+  margin-right: 11px;
+  padding: 11px 1px;
+  font-family: Poppins, sans-serif;
+  
+}
+.fourthSection .Skills_contant li i{
+  margin-right: 3px;
+  color: wheat;
+  
+}
+.fifthSection{
+  background-color: #faeded;
+}
+ .fifthSection  h2{
+  
+margin-left: 10%;
+padding-top:10px ;
+color:#1f4d84;
+ font-family: Poppins, sans-serif;
+ font-weight: 800;
+ /* display: flex;;
+ justify-content: center; */
+
+
+
+} 
+.pv{
+
+  margin-top: 30px;
+ margin-left: 10%;
+ display: flex;
+
+}
+.pv  p{
+  width: 800px;
+ margin-top: 10px;
+  margin-left: 50px;
+  font-size: 1.4rem;
+  font-family: Mulish, sans-serif;
+ 
+}
+.pv .btn-result{
+  margin-top: 15px;
+  margin-left:50px ;
+  height: 40px;
+  width: 350px;
+  border-radius: 10px;
+ background-color:#f7f1f1;  
+
+  
+}
+.pv a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color:#1f4d84;
+  
+}
+.pv .btn-result  :hover{
+ color: black;
+}
+
+/* 6 sections Contact  Start page */
+
+.SixthSection{
+  display: flex;
+  background-color: white;
+ 
+}
+
+.SixthSection .LeftContactdetail{
+  padding: 100px 232px;
+}
+
+.SixthSection .LeftContactdetail p{
+  font-family: Poppins, sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 1.4rem;
+  color: blue;
+}
+.SixthSection .LeftContactdetail h1{
+   font: 300;
+   font-size: 2.2rem;
+   padding-top: 6px;
+}
+.SixthSection .Contactdata{
+  display: flex;
+ 
+  padding-top: 40px;
+}
+ .SixthSection .LeftContactdetail .Location{
+  display: flex;
+  align-items: center;
+  margin-right: 10rem;
+
+}
+ .Location .Locationdata{
+    margin-left:20px ;
+  
+}
+.SixthSection .LeftContactdetail .Contactdata .Email{
+  display: flex;
+  align-items: center;
+
+}
+.Email .EmailData{
+  margin-left: 18px;
+}
+.SixthSection .LeftContactdetail .Contactdata p{
+  font-size: 1.1rem;
+   font-family: Poppins, sans-serif;
+   color: #171616;
+   
+}
+  .Contactdata a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 5px;
+    color: gray;
+    padding-top: 3px;
+  }
+  .Contactdata a:hover{
+    color: #147efb;
+  }
+/* Icons */
+.SixthSection .LeftContactdetail .Contactdata .icons {
+     align-items: center;
+    background-color: #f7f1f1;
+    border-radius: 50%;
+    
+    color: #147efb;
+    display: flex;
+    height: 4rem;
+    justify-content: center;
+    width: 4rem;
+  
+}
+
+/* footer Start */
+
+
+/* footer Contant */
+.footercontant{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0px;
+}
+.footercontant .leftfooter h1{
+color: wheat;
+
+}
+
+  
+.footercontant .navdata ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 10px;
+  font-size: 1.6rem;
+  outline: #147efb;
+}
+.footercontant .navdata ul li a{
+  color: white;
+  text-decoration: none;
+  
+}
+.footercontant .navdata ul li a:hover{
+  color: #d6966d;
+  
+ 
+}
+.footercontant .RightContactDetails{
+  
+}
+.footercontant .RightContactDetails a{
+  color: white;
+  padding-right: 20px;
+
+ 
+
+}
+.footercontant .RightContactDetails  a :hover{
+ color: #1f4d84;;
+ 
+}
+/* Footer End  */
